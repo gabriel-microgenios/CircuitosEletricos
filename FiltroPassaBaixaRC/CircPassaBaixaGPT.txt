@@ -1,0 +1,5 @@
+* Filtro Passa-Baixa RC - Fc = 100kHz
+.SUBCKT LPF_100kHz IN OUT GND
+R1 IN OUT 1.59k
+C1 OUT GND 1n
+.ENDS LPF_100kHz
